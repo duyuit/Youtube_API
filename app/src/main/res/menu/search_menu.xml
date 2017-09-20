@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="search bar"
+        android:icon="@drawable/search"
+        android:id="@+id/itsearch"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"></item>
+    <item
+        android:title="My Videos"
+        android:id="@+id/myVideo"
+        app:showAsAction="never"></item>
+    <item
+        android:title="Popular videos"
+        android:id="@+id/pop"
+        app:showAsAction="never"></item>
+
+</menu>
